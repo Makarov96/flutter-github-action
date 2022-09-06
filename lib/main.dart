@@ -76,7 +76,6 @@ class SingleDynamicForm extends StatefulWidget {
 
 class _SingleDynamicFormState extends State<SingleDynamicForm> {
   final _formKey = GlobalKey<FormState>();
-
   @override
   Widget build(BuildContext context) {
     final _size = MediaQuery.of(context).size;
