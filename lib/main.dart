@@ -125,7 +125,6 @@ class _SingleDynamicFormState extends State<SingleDynamicForm> {
     );
   }
 }
-
 class DynamicTextForm {
   DynamicTextForm({
     required this.config,
