@@ -39,7 +39,6 @@ jobs:
     - run: flutter build apk
     
     # Upload generated apk to the artifacts.
-    - name: Upload APK for release
     - uses: actions/upload-artifact@v1
       with:
         name: release-apk
@@ -72,7 +71,6 @@ jobs:
     - run: flutter build apk --debug
     
     # Upload generated apk to the artifacts.
-    - name: Upload APK for debug
     - uses: actions/upload-artifact@v2
       with:
         name: release-apk
